@@ -1,0 +1,1049 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ///////////////////////////////header ////////////////////////////////////*/
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.705);
+    position:fixed ;
+    top:0 ;
+    left: 0; 
+    z-index: 1;   
+}
+
+
+.headerlogo{
+    width: 150px;
+    height: 70px;
+    margin-left:500px;
+    float: left;    
+}
+
+
+.list{
+    list-style:none ;
+    float: left;
+    margin-top: 18px;
+}
+
+
+ .list li{
+    display: inline-block;
+    margin-right: 60px;
+ }
+
+
+ .list a{
+    font-size: 20px ;
+    color:rgb(255, 255, 255);
+     text-decoration: none;
+     font-weight: bolder;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+
+ .list a:hover{
+    color:rgb(255, 11, 11);
+    text-decoration: underline;
+ }
+
+
+ body{
+   background-image: url(../images/bodybackground.jpg) ;
+   height: 4000px; 
+   position: relative;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  
+ }
+
+ /*///////////////////////////////////// page 1//////////////////////////////////// */
+
+.firstpage{
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+    background-image:  url(../images/FIRSTSECTION.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.homecontent{
+    margin-left: 550px;
+    width: 900px;
+    height:700px ;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin-top: 150px;
+}
+
+
+.homecontent  .sp1{
+    font-size: 50px;
+    margin-top: 180px;
+    display: block;
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homecontent  .sp2{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.925);
+    display: block;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.homecontent .b1{
+    width: 200px;
+    height: 70px;
+    margin: 40px 5% ;
+    font-size: 25px;
+    border: 0;
+    border-radius: 20px;
+
+}
+.homecontent .b2{
+    width: 200px;
+    height: 70px;
+    margin: 40px 5% ;
+    font-size: 25px;
+    border: 0;
+    background-color: rgba(241, 7, 7,0.6);
+    border-radius: 20px;
+
+
+}
+
+.b1:hover{
+    color:white;
+    background-color: black;
+}
+
+.b2:hover{
+    color:red ;
+    background-color: black;
+}
+
+/*/////////////////////////////page 2 /////////////////////////////////////////*/
+
+
+.secondpage{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.678);
+    /* position: relative; */
+    text-align: center;
+}
+
+
+
+
+
+
+.secondpageheader{
+    padding: 120px;
+    font-size: 50px;
+    color: white;
+}
+
+.line2{
+    width: 100px;
+    height: 8px;
+    background-color: rgba(243, 3, 3, 0.498);
+}
+
+
+.underline2{
+    width: 100px;
+    height: 150px;
+    background-color: rgba(0, 255, 255, 0);
+    margin: auto;
+    margin-top: -110px;
+}
+
+ 
+
+.container{
+    margin-top: 150px;
+    width:  80%;
+    height:300px;
+    margin: auto;
+    background-color: rgba(37, 27, 27, 0.22);
+    text-align: center;
+    /* position: relative; */
+}
+
+.welcome{
+    float :left;
+    background-color: rgba(139, 139, 139, 0.235);
+    width:30%;
+    height: 300px;
+    position: relative;
+    border: solid rgba(128, 128, 128, 0.324) 2px;
+   
+}
+
+
+.welcome::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    background-color: rgb(202, 202, 202);
+    opacity: 0;
+    transition: 1s;
+    top:0;
+    left: 0;
+}
+
+.welcome:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+
+.mid{
+    margin: 0% 5%;
+}
+
+
+
+.container i {
+    font-size: 40px;
+    color: rgb(238, 37, 37);
+    margin: 30px  0px;
+}
+
+.container h2{
+    font-size: 35px;
+    margin: 20px 0px;
+    font-weight: 900;
+    color: white;
+}
+.container span {
+    display: block;
+    font-size: 29px ;
+    margin-top: 30px ;
+    color: grey;
+}
+ 
+.container a {
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+    margin-top: 30px; 
+    line-height:60px ;
+    font-size:25px;
+}
+/* ///////////////////////page 3 /////////////////////////////////*/
+
+.thirdpage{
+    width: 100%;
+    height: 900px;
+    background-color:rgba(0, 0, 0, 0.893);
+    text-align: center;
+}
+
+
+.thirdpageheader{
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.underlineheader{
+    width: 100px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    /* margin-top: -100px; */
+}
+
+.line{
+    width: 80px;
+    height: 8px;
+    background-color:rgba(255, 0, 0, 0.386) ;
+    position: absolute;
+}
+
+
+
+.containerpage3{
+    width: 80%;
+    height:500px ;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+
+} 
+
+.team-content{
+    margin-top: 100px;
+}
+
+
+
+
+
+.team-item{
+
+    margin-top: 30px;
+    float:left;
+    width: 20%;
+    height: 400px;
+    background-color: rgba(139, 139, 139, 0.235);
+    position: relative;
+    padding: 34px 28px;
+    
+}
+
+.midpage3{
+    margin:0% 20%;
+    margin-top :30px ;
+}
+
+.img{
+    background-color: rgba(0, 0, 0,0);
+    width: 225px;
+    margin: auto;
+    position: relative;
+}
+
+
+.team-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    visibility: hidden;
+}   
+
+
+
+
+
+.team-item:hover .team-overlay  {
+    visibility: visible;
+    background-color: rgba(9, 4, 4, 0.575);
+    
+}
+
+
+
+
+.team-item::after{
+    position: absolute;
+    content: "";
+    top:0;
+    left:0;
+    height:0 ;
+    width: 0;
+    opacity: 0;
+    transition: 1s;
+    background-color: rgba(223, 218, 218, 0.549);
+}
+
+.team-item:hover::after{
+    height: 100%;
+    width:100% ;
+    opacity: 0.5;
+}
+
+
+.team-overlay a {
+   width: 30px;
+   height: 30px;
+   color:rgb(26, 93, 226);
+   margin-left: auto;
+   display: block;
+}
+
+
+
+.team-overlay  a  i {
+    line-height: 30px;
+    
+}
+
+
+
+.team-info {
+  background-color: rgba(6, 7, 7,0);
+  margin-top:30px ;
+
+}
+
+.title-page3{
+    font-size: 30px;
+    padding: 10px  0px;
+    font-style: italic;
+    font-weight: 900;
+    color: white;
+}
+
+.sp-page3{
+    font-size: 20px;
+    color: white;
+}
+
+
+/* /////////// page4//////////////// */
+
+.fourthpage{
+    background-color:rgba(15, 14, 14, 0.889);
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+
+.container4{
+    width: 90%;
+    background-color: rgba(28, 28, 28, 0.379);
+    position: relative;
+    margin: auto;
+    overflow: auto;
+}
+
+
+.aboutus-pargraph{
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    background-color:rgba(0, 0, 0, 0);
+    height: 100%;
+}
+
+.aboutus-title{
+
+    font-size: 50px;
+    color: azure;
+   padding: 35px 0px;
+
+}
+
+.aboutusspan{
+    display: block;
+    line-height: 50px;
+    color: rgb(194, 194, 194);
+    font-size: 22px;
+}
+
+
+.aboutus{
+   margin-top: 100px;
+   width: 150px;
+   height: 50px;
+   font-size: 20px;
+   background: rgba(0, 0, 0, 0);
+   border: solid  rgba(255, 0, 0, 0.352)  1px;
+   color: aliceblue;
+}
+
+.aboutus:hover{
+    background-color: rgba(54, 52, 52, 0.739);
+    color: red;
+
+}
+
+
+
+.aboutus-photo-half{
+    float:left;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);    
+}
+
+.aboutus-photo{
+    margin-top: 100px;
+    margin-left: auto;
+    width:612;
+    height: 408;
+
+}
+
+
+
+
+
+/* ////////////////////page5 /////////////////////////*/
+
+
+.fifthpage{
+    background-color: rgba(29, 28, 28, 0.796);
+    width: 100%;
+    height: 680px;
+}
+
+
+.fifthpageheader{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0.804);
+}
+
+.line5{
+    width: 50px;
+    height: 120px;
+    background-color: rgba(165, 42, 42, 0);
+    margin: auto;
+    margin-top: -50px;
+}
+
+
+.lin55{
+    width: 40px;
+    height: 6px;
+    background-color: rgba(245, 42, 42, 0.59);
+}
+
+
+.whatweoffer{
+    width: 100%;
+}
+
+
+
+.uppercontainer{
+    background-color: rgba(125, 0, 202, 0);
+    width: 40%;
+    overflow: auto;
+    margin: auto;
+}
+
+
+.lowercontainer{
+    background-color: rgba(255, 228, 196, 0);
+    width: 40%;
+    margin: auto;
+    overflow: auto;
+    margin-top:50px ;
+   
+}
+
+
+.offer{
+    float: left;
+    background-color: brown;
+    width: 45%;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.diet{
+    background-image: url(../images/bodybuilder-eating-chicken-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.o2{
+    margin-left:10%;
+    background-image: url(../images/bodybuilderworking2-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.follow{
+    background-image: url(../images/followupcc-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.o4{
+    margin-left:10%;
+    background-image: url(../images/timemanagmentcc-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offtitle{
+    display: inline;
+    font-size: 30px;
+    color: white;
+}
+
+.offspan{
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 30px;
+    font-size: 25px;
+    padding-left: 13px;
+    color: white;
+}
+
+.offer  i {
+    font-size: 55px;
+    color: rgba(255, 5, 5, 0.518);
+    padding-left:10px ;
+    padding-top: 10px;
+}
+.offercontent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.771);
+}
+
+.offer::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.offer:hover::after{
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ////////////////////////////page6////////////////// */
+
+
+.sixthpage{
+    background-color: rgba(0, 0, 0, 0.83);
+    height: 1000px;
+}
+
+
+.sixthpageheader{
+    text-align: center;
+    padding: 40px 0px;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.ourwork{
+    position: relative;
+}
+
+
+.underline6{
+    width: 200px;
+    height: 130px;
+    margin: auto;
+    margin-top:-35px ;
+}
+
+.line6{
+    width: 40px;
+    height: 8px;
+    background-color: rgba(233, 54, 0, 0.457);
+    margin: auto;
+}
+
+
+.container6{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: auto;
+}
+
+
+.lower{
+    margin-top: 50px;
+}
+
+
+
+.transformation{
+    width: 20%;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+
+.mid{
+    margin: 0% 5%;
+}
+
+
+.last{
+    margin:0% 0% 0% 6% ;
+}
+
+.third{
+    margin-left: 50px;
+}
+
+.transformation  img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 17px;
+
+
+}
+
+.transformation .after{
+    position: absolute;
+    left: 0;
+    top:0;
+    opacity: 0;
+    transition:1s;
+    border-radius: 17px;
+
+}
+
+.transformation .after:hover {
+    opacity: 1;
+}
+/* ////////////////////////////////////////////////////page 7/./////////////////////////////////////////////// */
+
+
+.seventhpage{
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 1000px;
+}
+
+.page7content{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 50px  0px;
+}
+
+.page7content h2 {
+    font-size:50px ;
+    color:white;
+    padding-bottom: 30px;
+}
+
+.page7line{
+    background-color: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 8px;
+    margin: auto;
+    margin-top: -25px;
+}
+.line7{
+    background-color: rgba(255, 0, 0, 0.952);
+    height: 8px;
+    width: 50px;
+    margin: auto;
+}
+
+.page7content .choose{
+    font-size: 35px;
+    padding-top:80px ;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.page7content i{
+    color: brown;
+    padding-left: 10px;
+}
+
+.page7content button{
+    margin: 0px 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid red 1px;
+    border-radius: 12px;
+}
+
+
+.page7content button:hover{
+    background-color: rgba(128, 128, 128, 0.422);
+    color: red;
+}
+
+
+.container7{
+    width: 80%;
+    background-color: rgba(255, 228, 196, 0);
+    height: 450px;
+    margin: auto;
+}
+.price{
+    background-color: black;
+    width:25%;
+    height: 100%;
+    float: left;
+    position: relative;
+    border-radius: 17px;
+
+}
+.price-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.768);  
+    border-radius: 17px;
+}
+
+.midp{
+    margin: 0% 12.5%;
+}
+
+.price-content h2{
+    text-align: center;
+}
+
+.priceimg{
+    width: 100%;
+    height: 70%;
+    /* background-color: rgba(0, 0, 0, 0.42); */
+    margin-top:50px ;
+}
+
+
+.img-coach{
+    height:100% ;
+    width: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+
+.img-coach:hover{
+    transform: scale(1 , 1.2);
+}
+
+
+.priceinfo{
+    background-color: rgba(240, 248, 255, 0);
+    position: absolute;
+    padding-left: 15px;
+    width: 100%;
+    margin-top: -250px;
+    left: 0;
+}
+
+
+.priceinfo p {
+    margin: 15px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.priceinfo i {
+    padding-right: 10px;
+}
+
+.priceinfo button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: solid red 1px;
+    background-color: rgba(240, 248, 255, 0);
+    color:white;
+}
+
+.priceinfo button:hover{
+    background-color: rgba(128, 128, 128, 0.442);
+    color: red;
+}
+
+
+
+.mid7{
+    margin:0%  20%;
+}
+
+
+
+
+/* /////////////////////////////////////////////page8////////////////////////////////////////////////////////////// */
+/* .eighthpage{
+    background-color: aquamarine;
+} */
+.wegot{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 45px 0px;
+    font-size: 50px;
+}
+
+.whatwegot{
+    background-color: rgb(0, 0, 0);
+    /* position: relative; */
+    height:600px;
+}
+
+.container8{
+    background-image: url(../images/460863.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+}
+
+
+
+
+
+.icons{
+    float: left;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0% 5%;
+    text-align: center;
+    height: 350px;
+    /* margin-top: 100px; */
+    /* position: absolute; */
+    padding-top: 100px;
+}
+
+.icons i{
+    font-size: 40px;
+    padding: 15px 0px;
+}
+
+.icons h2{
+    padding: 10px 0px;
+    color: white;
+}
+
+.icons span{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+
+}
+
+
+
+.icons .user{
+    color: rgb(97, 174, 178);
+}
+.icons .face{
+    color: rgb(0, 42, 255);
+}
+.icons .insta{
+    color: hsl(0, 0%, 99%);
+}
+.icons .youtube{
+    color: rgba(255, 0, 0, 0.771);
+}
+
+/* ///////////////////////////last page//////////////////////////////////// */
+
+.lastpage{
+    background-color: rgb(0, 0, 0);
+    /* text-align: center; */
+}
+
+
+.lastheader{
+    text-align: center;
+    padding: 40px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.lastbutton{
+    width: 200px;
+    height:40px ;
+    margin-left: 45%;
+    font-size: 25px;
+    border: solid red 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.lastbutton:hover{
+    background-color: rgba(128, 128, 128, 0.563);
+    color: rgb(255, 0, 0);
+}
+
+.lastbutton i{
+    padding: 0px 14px;
+    color: white;
+}
+
+.lastcontainer{
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.lastpagediv{
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+
+
+
+
+.d1 span{
+    color :grey;
+    font-size: 20px;
+    display: block;
+    padding-left:  20px;
+}
+
+.lastpagediv i {
+    padding-left: 10px;
+    margin: 10px 10px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.lastpagediv .w{
+    color: green;
+}
+.lastpagediv .in{
+    color: rgb(253, 253, 253);
+}
+.lastpagediv .f{
+    color: blue;
+}
+.lastpagediv .yo{
+    color:red;
+}
+.lastpagediv .ti{
+    color: rgba(106, 32, 255, 0.86);
+}
+
+.d1 .s2{
+    margin-top: 30px;
+    color: grey;
+    font-size: 15px;
+}
+
+.lastpagediv li{
+    list-style: none;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.lastpagediv a {
+    text-decoration: none;
+    color:grey;
+}
+.lastpagediv ul{
+    color: grey;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 170px;
+}
